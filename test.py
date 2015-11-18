@@ -6,7 +6,7 @@ class TestSuite(unittest.TestCase):
     storage = Storage()
     storage.populate()
     score = storage.score()
-    self.failIf(score != 12345)
+    self.failIf(score != 'ray')
 
 def main():
   unittest.main()
